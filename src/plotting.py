@@ -13,3 +13,13 @@ plt.show()
 plt.clf()
 plt.savefig('species_by_conservation_status')
 
+plt.figure(figsize = (8,6))
+sns.barplot(data = table2_df, x = 'category', y = 'count')
+plt.xticks(rotation = 45)
+plt.xlabel('Species Category')
+plt.ylabel('Number of Endangered')
+plt.title('Endangered Species by Category')
+plt.show()
+plt.clf()
+plt.savefig('endangered_species_by_category')
+
