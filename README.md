@@ -2,14 +2,14 @@
 
 This project analyses biodiversity data from national parks in the United States to explore how species are distributed across conservation statuses and biological categories, with a specific focus on endangered species.
 
-## 🔍 Objective
+## Objective
 
 To investigate species endangerment patterns by:
 - Conservation status
 - Biological category (e.g., mammal, bird, plant)
 - National park
 
-## 📊 Key Insights
+## Key Insights
 
 ### 1. Species by Conservation Status
 
@@ -53,12 +53,12 @@ Each park has 20 endangered species observations:
 
 This suggests a balanced distribution in observation effort.
 
-## 📈 Visualisations
+## Visualisations
 
 - Bar chart of species by conservation status
 - Bar chart of endangered species by category
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.10+
 - pandas
