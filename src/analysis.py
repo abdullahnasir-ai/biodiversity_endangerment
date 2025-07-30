@@ -15,3 +15,8 @@ percentage_of_vascular_plant = (len(species_observations[species_observations['c
 print(f'Percentage of Observations that are Vascular Plants: {percentage_of_vascular_plant:.2f}%')
 # Vascular Plants make up 76.31% of the dataset
 
+print(species_observations.columns)
+
+print('Number of Endangered species by category:')
+print(species_observations[species_observations['conservation_status'] == 'Endangered'].groupby('category').size())
+# Majority of the Endangered observations are those of mammals
