@@ -20,3 +20,11 @@ print(species_observations.columns)
 print('Number of Endangered species by category:')
 print(species_observations[species_observations['conservation_status'] == 'Endangered'].groupby('category').size())
 # Majority of the Endangered observations are those of mammals
+
+print('Number of Endangered observations per National Park:')
+print(species_observations[species_observations['conservation_status'] == 'Endangered'].groupby('park_name').size())
+# We can see that the number of reports of endangered species across all national parks is the same at 20 each.
+
+
+
+
