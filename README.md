@@ -35,7 +35,7 @@ Most species observed are not endangered.
 | Amphibian         | 328              |
 | Reptile           | 324              |
 
-> Vascular plants dominate both the overall dataset.
+> Vascular plants dominate the overall dataset.
 
 ### 3. Percentage Insights
 
